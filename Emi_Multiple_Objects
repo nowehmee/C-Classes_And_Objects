@@ -1,0 +1,46 @@
+using System;
+
+namespace Emi_MultipleObjects;
+
+class Person
+{
+	public string fname;
+	public string lname;
+	public int age;
+	public char sex;
+	
+	public static void Main()
+	{
+		Person person1 = new Person();
+		person1.fname = "Noemi";
+		person1.lname = "Alon";
+		person1.age = 19;
+		person1.sex = 'F';
+		
+		Person person2 = new Person();
+		person2.fname = "Soffy";
+		person2.lname = "Vicuña";
+		person2. age = 19;
+		person2.sex = 'F';
+		
+		Person person3 = new Person();
+		person3.fname = "Mj";
+		person3.lname = "Sancon";
+		person3. age = 19;
+		person3.sex = 'M';
+		
+		Person person4 = new Person();
+		person4.fname = "Badeth";
+		person4.lname = "Quijoc";
+		person4. age = 19;
+		person4.sex = 'F';
+		
+		Person person5 = new Person();
+		person5.fname = "Jubert";
+		person5.lname = "Rapa";
+		person5. age = 19;
+		person5.sex = 'M';
+		
+		Console.WriteLine(person1.fname + " " + person1.lname);
+	}
+}
